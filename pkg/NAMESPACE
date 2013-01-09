@@ -1,0 +1,4 @@
+exportPattern("^[^\\.]")
+
+S3method("detail", "SciencePo" )
+
