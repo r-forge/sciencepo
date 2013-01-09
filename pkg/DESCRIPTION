@@ -8,7 +8,7 @@ Maintainer: Daniel Marcelino <dmarcelino@live.com>
 Description: SciencePo is a collection of functions for making the use of R in political science even more intuitive. SciencePo covers standard descriptive analyses for observational and experimental data. Later updates will focus on cutting-edge methods published on the main journals of the field.
 URL: http://danielmarcelino.com/SciencePo
 License: LGPL (>= 2.0, < 3)
-Depends: R (>= 2.10.0), stats (>= 2.15.0), utils, graphics, grDevices
+Depends: R (>= 2.15.2), stats (>= 2.15.0), utils, graphics, grDevices
 Suggests: MASS, methods, Zelig, descr, xtable, foreign, MCMCpack, sandwich, data.table, plyr, ggplot2
 LazyData: yes
 Repository/R-Forge/Project: sciencepo
