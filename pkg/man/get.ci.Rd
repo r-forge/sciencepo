@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{get.ci}
 \alias{get.ci}
 \title{Simulation of Confidence Intervals

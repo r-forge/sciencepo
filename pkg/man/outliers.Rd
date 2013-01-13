@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{outliers}
 \alias{outliers}
 \title{Detection of Outliers

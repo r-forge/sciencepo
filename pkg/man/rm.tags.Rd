@@ -24,7 +24,7 @@ rm.tags(x, tab = FALSE)
 }
 \examples{
 
-tags <- "Não me julgues pela metade & # \%	."
+tags <- "These tags shall not be here & # \%	."
 
 rm.tags(tags)
 

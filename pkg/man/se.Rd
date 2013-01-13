@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{se}
 \alias{se}
 \alias{std.error}

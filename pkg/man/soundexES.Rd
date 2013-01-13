@@ -33,9 +33,9 @@ Borg, Andreas and Murat Sariyar. (2012) \emph{RecordLinkage: Record Linkage in R
 soundexES(x <- c("Alejandro Angel Tapias", "Alejandro Tapias", "Alejandro A. Tapias", 
 	"Alexander Angel Tapias", "Alexandre Angel Tapias"))
 
-soundexES(y <- c("EVITA PERÓN", "BEATRIZ RIVERA", "IRENE MARTIN", "MARIA CAROLINA GALAIS", 
+\dontrun{soundexES(y <- c("EVITA PERON", "BEATRIZ RIVERA", "IRENE MARTIN", "MARIA CAROLINA GALAIS", 
 	"CAROL GALAIS") )
-
+}
 }
 
 \keyword{ Soundex }

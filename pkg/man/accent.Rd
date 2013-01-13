@@ -33,8 +33,6 @@ accent("Não me julgues pela metade se não me conheces por inteiro.")
 
 accent("Voilà, l'hétérogénéité réapparaître")
 
-accent("De tout mon cœur à toi.")
-
 # generate some data
 
 x <- rep(c("Patrik Öhberg", "Språkrådet", "Marie-Françoise",

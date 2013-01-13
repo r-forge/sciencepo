@@ -1,8 +1,5 @@
-\encoding{utf8}
 \name{gsr}
 \alias{gsr}
-\alias{search}
-\alias{replace}
 \title{Global Search and Replace}
 
 \description{The function performs search and replace.

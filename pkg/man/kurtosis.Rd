@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{kurtosis}
 \alias{kurtosis}
 \title{Computes the Kurtosis

@@ -23,7 +23,7 @@ rprob(x, df = nrow(x) - 2)
 \references{
 
 %TODO verify other sources
-Aldrich, John (1995) Correlations Genuine and Spurious in Pearson and Yule. \emph{Statistical Science,} \bold{10(4),} 364–-376.
+Aldrich, John (1995) Correlations Genuine and Spurious in Pearson and Yule. \emph{Statistical Science,} \bold{10(4),} 364--376.
 
 }
 \author{Daniel Marcelino

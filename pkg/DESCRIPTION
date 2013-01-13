@@ -2,14 +2,15 @@ Package: SciencePo
 Type: Package
 Title: Tools for Research in Political Science
 Version: 0.3.1-15
-Date: 2013-01-10
+Date: 2013-01-15
 Author: Daniel Marcelino
 Maintainer: Daniel Marcelino <dmarcelino@live.com>
 Description: SciencePo is a collection of functions for making the use of R in political science even more intuitive. SciencePo covers standard descriptive analyses for observational and experimental data. Later updates will focus on cutting-edge methods published on the main journals of the field.
 URL: http://danielmarcelino.com/SciencePo
 License: LGPL (>= 2.0, < 3)
-Depends: R (>= 2.15.2), stats (>= 2.15.0), utils, graphics, grDevices
+Depends: R (>= 2.15), stats (>= 2.15), utils, graphics, grDevices
+Imports: maptools 
 Suggests: MASS, methods, Zelig, descr, xtable, foreign, MCMCpack, sandwich, data.table, plyr, ggplot2
 LazyData: yes
+Collate: 'accent.R' 'anonymize.R' 'beta.coef.R' 'detail.R' 'get.ci.R' 'get.ipc.R' 'get.poly.R' 'gsr.R' 'install.R' 'kurtosis.R' 'lsq.R' 'outliers.R' 'rescale.R' 'rm.tags.R' 'rprob.R' 'rstack.R' 'se.R' 'shift.R' 'skewness.R' 'soundexBR.R' 'soundexES.R' 'soundexFR.R' 'tableau.R' 'tolatex.R' 'winsor.mean.R'
 Repository/R-Forge/Project: sciencepo
-Repository/R-Forge/Revision:

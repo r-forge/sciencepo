@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{install}
 \alias{install}
 \title{Install R Packages 

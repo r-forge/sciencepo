@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{bhodrick93}
 \alias{bhodrick93}
 \docType{data}

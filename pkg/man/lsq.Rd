@@ -21,9 +21,9 @@ lsq(size, rep = 1, seed = NA, id = FALSE)
 
 \references{
 
-Tarry, G. (1900) Le problème de 36 officiers. Compte Rendu de l'Assoc. \emph{Français Avanc. Sci. Naturel,} \bold{1,} 122--123.
+Tarry, G. (1900) Le probleme de 36 officiers. Compte Rendu de l'Assoc. \emph{Francais Avanc. Sci. Naturel,} \bold{1,} 122--123.
 
-Tarry, G. (1901) Le problème de 36 officiers. Compte Rendu de l'Assoc. \emph{Français Avanc. Sci. Naturel,} \bold{2,} 170--203.
+Tarry, G. (1901) Le probleme de 36 officiers. Compte Rendu de l'Assoc. \emph{Francais Avanc. Sci. Naturel,} \bold{2,} 170--203.
 }
 \author{Daniel Marcelino
 }

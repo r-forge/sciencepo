@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{griliches76}
 \alias{griliches76}
 \docType{data}

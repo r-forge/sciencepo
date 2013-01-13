@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{rstack}
 \alias{rstack}
 \title{ Produce a Stacked Table of Correlations}

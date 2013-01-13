@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{shift}
 \alias{shift}
 \alias{lag}

@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{detail}
 \alias{detail}
 \title{Descriptive Statistics Table

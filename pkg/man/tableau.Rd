@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{tableau}
 \alias{tableau}
 \title{Proportion Table for Univariate Analysis

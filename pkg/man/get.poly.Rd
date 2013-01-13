@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{get.poly}
 \alias{get.poly}
 \title{Get Polygons from a Shapefile

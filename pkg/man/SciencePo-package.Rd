@@ -27,7 +27,7 @@ Marcelino, Daniel. (2010) \emph{Sobre dinheiro e eleições: um estudo dos gasto
 \keyword{ Political systems }
 \keyword{ Simulations }
 
-\seealso{ \code{\link{detail}},  \code{\link{shift}},\code{\link{gsr}}, \code{\link{soundexBR}}, \code{\link{tableau}}, \code{\link{accent}}, \code{\link{beta.coef}}, \code{\link{outliers}}, \code{\link{anonymize}}, \code{\link{lsq}}, \code{\link{get.poly}}, \code{\link{rprob}}, \code{\link{rstack}}, \code{\link{winsor.mean}}, \code{\link{get.ci}}, \code{\link{IPC}}. 
+\seealso{ \code{\link{detail}},  \code{\link{shift}},\code{\link{gsr}}, \code{\link{soundexBR}}, \code{\link{tableau}}, \code{\link{accent}}, \code{\link{beta.coef}}, \code{\link{outliers}}, \code{\link{anonymize}}, \code{\link{lsq}}, \code{\link{get.poly}}, \code{\link{rprob}}, \code{\link{rstack}}, \code{\link{winsor.mean}}, \code{\link{get.ci}}, \code{\link{get.ipc}}. 
 }
 
 \examples{
@@ -58,7 +58,7 @@ rstack(rprob(nerlove63))
 lsq(4, 3, seed = 123)
 
 
-rm.tags("Não me julgues pela metade & # \%	.", tab=TRUE)
+rm.tags("These tags shall not be here & # \%	.", tab=TRUE)
 
 accent("Voilà, l'hétérogénéité réapparaître")
 

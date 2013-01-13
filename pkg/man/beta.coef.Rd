@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{beta.coef}
 \alias{beta.coef}
 \alias{standardize}

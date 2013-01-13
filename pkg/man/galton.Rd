@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{galton}
 \alias{galton}
 \docType{data}
@@ -14,7 +13,16 @@
     \item{\code{child}}{The child's height}
   }
 }
-\details{
+\details{Regression analysis is the statistical method most often used in
+political science research. The reason is that most scholars are
+interested in identifying "causal" effects from non-experimental
+data. Regression is the method for doing this.
+The term "Regresssion" (1889) Sir Francis Galton investigated the
+relationship between body size of fathers and sons. Thereby he
+"invented" regression analysis. He estimated:
+\eqn{S_s = 85.7 + 0.56S_F}
+This means that the size of the son regresses towards the
+mean. Therefore, he named his method regression.
 }
 \source{ 
 }

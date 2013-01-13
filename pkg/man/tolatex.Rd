@@ -1,4 +1,3 @@
-\encoding{utf8}
 \name{tolatex}
 \alias{tolatex}
 \title{Generate Latex Code
