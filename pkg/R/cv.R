@@ -1,2 +1,4 @@
 cv <-
-function(x) sd(x)/mean(x)
+function(x){ 
+  sd(x)/mean(x)
+}

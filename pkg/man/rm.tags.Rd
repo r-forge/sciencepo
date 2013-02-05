@@ -3,7 +3,7 @@
 \alias{rm.tags}
 \title{Remove String Tags
 }
-\description{Clean up x of string tags
+\description{Clean up string tags
 }
 \usage{
 rm.tags(x, tab = FALSE)
@@ -24,11 +24,11 @@ rm.tags(x, tab = FALSE)
 }
 \examples{
 
-tags <- "These tags shall not be here & #	."
+tags <- "These tags should not be here & # a."
 
 rm.tags(tags)
 
-# having diacritics to be removed, one may use as:
+# One can solve diacritics marks and tags at once:
 
 accent(rm.tags(tags))
 }

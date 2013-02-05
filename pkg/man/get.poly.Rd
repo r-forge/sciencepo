@@ -24,26 +24,8 @@ get.poly(x)
 }
 \examples{
 
-# First example
-
-\dontrun{temp <- tempfile()}
-
-\dontrun{download.file("http://metodologiapolitica.com/download/Brasil.zip",
-temp)}
-
-\dontrun{shp.br <- maptools::readShapeSpatial(unzip(temp,
-"Brasil.shp"))}
-
-\dontrun{unlink(temp)}
-
-\dontrun{get.poly(shp.br)}
-
-# Second Example
-
 sids <- maptools::readShapePoly(system.file("shapes/sids.shp",
 package="maptools") )
-
-get.poly(sids)
 
 plot(poly <- get.poly(sids))
 

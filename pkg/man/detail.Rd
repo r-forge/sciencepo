@@ -37,7 +37,7 @@ Venables, W. N. and Ripley, B. D. (2002) \emph{Modern Applied Statistics with S.
 
 \author{Daniel Marcelino
 }
-\note{This function provides an alternative to the existing functions in packages, such as \code{\link[Hmisc]{describe}}, \code{\link[Zelig]{describe}}, and \code{\link[psych]{describe}}. The advantage this approach is that we can specify whether the returning object, whether a basic or the full range of descriptive statistics. 
+\note{This function provides an alternative to the existing functions in packages, such as \code{\link[Hmisc]{describe}}, \code{\link[Zelig]{describe}}, and \code{\link[psych]{describe}}. The advantage of this approach is such we can specify whether the returning object will be a basic or a full range of descriptive statistics. 
 }
 
 \seealso{\code{\link{cgreene76}}.  

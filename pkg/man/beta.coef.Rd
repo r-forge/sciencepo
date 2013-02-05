@@ -26,14 +26,14 @@ Gelman, A., & Hill, J. (2006) \emph{Data analysis using regression and multileve
 }
 \author{Daniel Marcelino
 }
-\note{To be fair, there are cons and pros of using standardized beta coefficients, see for example, positive arguments in Gelman's book and counterarguments in Dallal's page.
+\note{To be fair, there are pros and cons for using standardized beta coefficients, see for example, positive arguments in Gelman's book and counterarguments in Dallal's page.
 }
 
 
 \seealso{ \code{\link{galton}}
 }
 \examples{
-data(galton) #use some data
+data(galton) #get some data
 
 #fit a linear regression (OLS) model.
 

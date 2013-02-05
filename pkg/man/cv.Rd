@@ -30,9 +30,7 @@ cv(x)
 }
 \examples{
 v <- rnorm(10) 
-
 cv(v)
-
 }
 
 \keyword{ Coefficient of variation }
