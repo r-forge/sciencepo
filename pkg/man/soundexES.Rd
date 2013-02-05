@@ -30,11 +30,12 @@ Borg, Andreas and Murat Sariyar. (2012) \emph{RecordLinkage: Record Linkage in R
 
 \examples{
 
-soundexES(x <- c("Alejandro Angel Tapias", "Alejandro Tapias", "Alejandro A. Tapias", 
-	"Alexander Angel Tapias", "Alexandre Angel Tapias"))
+soundexES(x <- c("Alejandro Angel Tapias", "Alejandro Tapias",
+"Alejandro A. Tapias", "Alexander Angel Tapias",
+"Alexandre Angel Tapias"))
 
-\dontrun{soundexES(y <- c("EVITA PERON", "BEATRIZ RIVERA", "IRENE MARTIN", "MARIA CAROLINA GALAIS", 
-	"CAROL GALAIS") )
+\dontrun{soundexES(y <- c("Evita Perón", "Beatriz Rivera",
+"Irene Martin", "Carol Galais") )
 }
 }
 

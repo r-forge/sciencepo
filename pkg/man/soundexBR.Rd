@@ -79,10 +79,11 @@ date <- c(20121208,20121103,20120302,20120105,20121004,20121209) )
 
 # Must call RecordLinkage package
 
-\dontrun{pairs <- compare.linkage(mydata1, mydata2, blockfld = list(c(1,2,4),c(1,2)),
-      phonetic <- c(1,2), phonfun = soundexBR, strcmp = FALSE,
-      strcmpfun <- jarowinkler, exclude=FALSE,identity1 = NA,identity2 = NA,
-      n_match <- NA, n_non_match = NA)
+\dontrun{pairs <- compare.linkage(mydata1, mydata2,
+blockfld = list(c(1,2,4),c(1,2)),
+phonetic <- c(1,2), phonfun = soundexBR, strcmp = FALSE,
+strcmpfun <- jarowinkler, exclude=FALSE,identity1 = NA,
+identity2 = NA, n_match <- NA, n_non_match = NA)
       
 print(pairs)
 

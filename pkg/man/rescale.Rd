@@ -2,7 +2,7 @@
 \alias{rescale}
 \title{Rescaling as Z-scores and Centering 
 }
-\description{
+\description{Provides a rapidly way to generate standard variables. 
 }
 \usage{
 rescale(x, fun = "center")
@@ -28,6 +28,9 @@ rescale(x, fun = "center")
 \seealso{
 }
 \examples{
+x <- sample(10)
+
+rescale(x)
 
 }
 \keyword{ center mean }

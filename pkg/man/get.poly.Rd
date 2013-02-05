@@ -28,9 +28,11 @@ get.poly(x)
 
 \dontrun{temp <- tempfile()}
 
-\dontrun{download.file("http://metodologiapolitica.com/download/Brasil.zip",temp)}
+\dontrun{download.file("http://metodologiapolitica.com/download/Brasil.zip",
+temp)}
 
-\dontrun{shp.br <- maptools::readShapeSpatial(unzip(temp, "Brasil.shp"))}
+\dontrun{shp.br <- maptools::readShapeSpatial(unzip(temp,
+"Brasil.shp"))}
 
 \dontrun{unlink(temp)}
 
@@ -38,11 +40,12 @@ get.poly(x)
 
 # Second Example
 
-\dontrun{sids <- maptools::readShapePoly(system.file("shapes/sids.shp", package="maptools") )}
+sids <- maptools::readShapePoly(system.file("shapes/sids.shp",
+package="maptools") )
 
-\dontrun{get.poly(sids)}
+get.poly(sids)
 
-\dontrun{plot(poly <- get.poly(sids))}
+plot(poly <- get.poly(sids))
 
 }
 \keyword{ Polygons }

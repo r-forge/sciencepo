@@ -33,10 +33,6 @@ Borg, Andreas and Murat Sariyar. (2012) \emph{RecordLinkage: Record Linkage in R
 soundexFR(x <- c("Jean Charest", "John Charest",
 	"James Charest", "John James Charest"))
 
-\dontrun{soundexFR(y <- c("GÉRARD DEPARDIEU","LAETITIA CASTA", 
-	"ASTRID BERGÈS-FRISBEY", "BRIGITTE BARDOT", 
-	"MELANIE LAURENT", "AUDREY TAUTOU") )
-}
 }
 
 \keyword{ Soundex }

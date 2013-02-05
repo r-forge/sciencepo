@@ -38,7 +38,7 @@ function (x, basic = FALSE, na.rm = TRUE, trim = 0.2, type = 2, k = 1)
                                                 "!#", sep = " ")
                 }
                 if (!is.numeric(unclass(x[[i]])))
-                    stop("'detail' still cannot compute vectors 'as.Date' and 'as.character'")
+                    stop("'detail' still cannot compute either 'Date' or 'character' vectors")
             }
             scores[, 2] <- apply(x, 2, mean, na.rm = na.rm)
             if (!basic) {

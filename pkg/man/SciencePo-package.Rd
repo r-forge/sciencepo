@@ -58,19 +58,15 @@ rstack(rprob(nerlove63))
 lsq(4, 3, seed = 123)
 
 
-rm.tags("These tags shall not be here & # \%	.", tab=TRUE)
-
-accent("Voilà, l'hétérogénéité réapparaître")
-
-
 get.ci(sample = 800, n = 1, mu = .29)
 
 
-\dontrun{sids <- maptools::readShapePoly(system.file("shapes/sids.shp", package="maptools") )}
+sids <- maptools::readShapePoly(system.file("shapes/sids.shp",
+package="maptools") )
 
-\dontrun{get.poly(sids)}
+get.poly(sids)
 
-\dontrun{plot(poly <- get.poly(sids))}
+plot(poly <- get.poly(sids))
 
 
 }

@@ -24,11 +24,11 @@ rm.tags(x, tab = FALSE)
 }
 \examples{
 
-tags <- "These tags shall not be here & # \%	."
+tags <- "These tags shall not be here & #	."
 
 rm.tags(tags)
 
-# compare with the accent function
+# having diacritics to be removed, one may use as:
 
 accent(rm.tags(tags))
 }

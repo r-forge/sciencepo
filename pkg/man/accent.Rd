@@ -29,18 +29,10 @@ accent(x)
 }
 
 \examples{
+
 accent("Não me julgues pela metade se não me conheces por inteiro.")
 
-accent("Voilà, l'hétérogénéité réapparaître")
-
-# generate some data
-
-x <- rep(c("Patrik Öhberg", "Språkrådet", "Marie-Françoise",
-"Thérèse", "Frédérique", "Anaëlle", "Anaïs", "Sélène"), 3)
-
-
-accent(x)
-
+\dontrun{accent(x)}
 }
 \keyword{ Accent Marks }
 \keyword{ Strings }
