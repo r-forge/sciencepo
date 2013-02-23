@@ -21,11 +21,11 @@ tolatex(x, title = NULL)
 }
 \author{Daniel Marcelino
 }
-\note{It relies massively on the capabilities of \code{\link[xtable]{xtable}}.
+\note{It relies massively on the capabilities of \sQuote{xtable}.
 }
 
 
-\seealso{\code{\link[xtable]{xtable}}
+\seealso{
 }
 \examples{
 
@@ -43,5 +43,5 @@ tolatex(detail(cgreene76, basic = TRUE), cap)
 
 }
 
-\keyword{ Latex }
+\keyword{ latex }
 \keyword{ xtable}

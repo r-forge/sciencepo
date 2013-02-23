@@ -1,6 +1,5 @@
 \name{beta.coef}
 \alias{beta.coef}
-\alias{standardize}
 \title{Standardized Beta Coefficients
 }
 \description{Produces standardized beta coefficients from an adjusted model. Standardized coefficients refer to how many standard deviations a dependent variable will change per standard deviation increase in the predictor variable.
@@ -45,5 +44,5 @@ beta.coef(model)
 
 }
 
-\keyword{ Coefficients }
-\keyword{Standardized }
+\keyword{ beta coefficients }
+\keyword{standardization }

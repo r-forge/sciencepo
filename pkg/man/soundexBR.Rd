@@ -34,45 +34,46 @@ The genealogist Dick Eastman maintain a soundex calcualtor in his website at \ur
 }
 
 
-\seealso{\link[RecordLinkage]{soundex}, \link[RecordLinkage]{compare.linkage}.
+
+\seealso{\code{\link{soundexES}}, \code{\link{soundexFR}}.
 }
 \examples{
 # last name with Z
-first <- "João"
-last <- "Souza"
-middle <-"Santos"
+first <- 'João'
+last <- 'Souza'
+middle <-'Santos'
 soundexBR(c(first, middle, last))
 
 # with S, instead of Z
-first <- "João"
-last <- "Sousa"
+first <- 'João'
+last <- 'Sousa'
 soundexBR(c(first, last))
 
 # Miscelania
-c("João Souza", "João Sousa", "Joao dos Santos Souza",
-"John Souza") -> names
+c('João Souza', 'João Sousa', 'Joao dos Santos Souza',
+'John Souza') -> names
 
 soundexBR(names)
 
-names <- c("Ana Karolina Kuhnen",
-"Ana Carolina Kuhnen", "Ana Karolina",
-"Dilma Vana Rousseff", "Dilma Rousef")
+names <- c('Ana Karolina Kuhnen',
+'Ana Carolina Kuhnen', 'Ana Karolina',
+'Dilma Vana Rousseff', 'Dilma Rousef')
   
 soundexBR(names)
 
 # Example with RecordLinkage
 #Some data:
 mydata1 <- data.frame(
-fname <- c("Ricardo","Maria","Tereza","Pedro","José", "Germano"),
-lname <- c("Cunha","Andrade","Silva","Soares","Silva","Lima"),
+fname <- c('Ricardo','Maria','Tereza','Pedro','José', 'Germano'),
+lname <- c('Cunha','Andrade','Silva','Soares','Silva','Lima'),
 age <- c(67,89,78,65,68,67),
 birth <- c(1945,1923,1934,1947,1944,1945),
 date <- c(20120907,20120703,20120301,20120805,20121004,20121209) )
 
 
 mydata2 <- data.frame(
-fname <- c("Maria","Lúcia","Paulo","Marcos", "Ricardo", "Germanio"),
-lname <- c("Andrade","Silva","Soares","Pereira","Cunha","Lima"),
+fname <- c('Maria','Lúcia','Paulo','Marcos', 'Ricardo', 'Germanio'),
+lname <- c('Andrade','Silva','Soares','Pereira','Cunha','Lima'),
 age <- c(67,88,78,60,68,80),
 birth <- c(1945,1924,1934,1952,1944,1932),
 date <- c(20121208,20121103,20120302,20120105,20121004,20121209) )
@@ -97,8 +98,7 @@ getPairs(pairs, max.weight = Inf, min.weight = -Inf)
 
 }
 
-\keyword{ Soundex }
-\keyword{ Brazilian  }
-\keyword{ Portuguese  }
+\keyword{ soundex }
+\keyword{ Portuguese }
 \keyword{ RecordLinkage  }
 

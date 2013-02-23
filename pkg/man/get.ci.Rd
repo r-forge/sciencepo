@@ -35,6 +35,6 @@ get.ci(sample = 1000, n = 1, mu = .29)
 get.ci(1000, 1, .29, 2, .90)
 }
 
-\keyword{ Confidence Interval }
-\keyword{ Simulation }
-\keyword{ Descriptive Stats }
+\keyword{ confidence interval }
+\keyword{ simulations }
+\keyword{ descriptive stats }

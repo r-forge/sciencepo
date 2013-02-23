@@ -33,6 +33,7 @@ x <- sample(10)
 rescale(x)
 
 }
-\keyword{ center mean }
+\keyword{ centre mean }
 \keyword{ z-scores }
+\keyword{standardization }
 

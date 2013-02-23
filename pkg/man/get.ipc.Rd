@@ -11,7 +11,13 @@ get.ipc(n, mag = NULL)
   \item{n}{ is a numeric value or a vector containing the number of candidates for a given party nested within districts.}
   \item{mag}{ is the district magnitude quantity or a vector containing a list of district magnitudes.}
 }
-\details{Normatively, it is necessary, at least, the double number of candidates than the district magnitude to generate electoral competitiveness (it is the between competitiveness). When it comes to the party level in PR systems, the basic \dQuote{objective} measure is to apply the same reasoning to identify competitiveness within a given party. Therefore, the higher is the IPC, the higher is the intra-party competition. 
+\details{Normatively, it is necessary two times the number of candidates
+  out the district magnitude size to generate electoral
+  competitiveness. When it comes to the party level in PR systems, the
+  basic \dQuote{objective} measure is to apply the same reasoning to
+  identify competitiveness not between parties but also within
+  party. Then, the higher the IPC found, the higher the intra-party
+  competition for a given party. 
 }
 \value{Either a numeric value or a vector with the IPC for each observation.
 }
@@ -55,5 +61,5 @@ data2 <- data.frame(
 get.ipc(data2$a_i, mag = 1)
 
 }
-\keyword{ Intraparty }
-\keyword{ Competition }
+\keyword{ intraparty competition }
+\keyword{ political parties }

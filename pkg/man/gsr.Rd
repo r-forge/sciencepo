@@ -34,18 +34,17 @@ gsr(file, search, replace)
 
 data <- data.frame( 
 	i=i <- rep(1, len = 100),
-	t=t<-sample(c("2008", "2012"), 100, replace=TRUE),
+	t=t<-sample(c('2008', '2012'), 100, replace=TRUE),
 	p=p <- sample(LETTERS[1:3], 100, replace=TRUE),
 	j=j <- sample(letters[1:13], 100, replace=TRUE) )
 
 data$ide <-gsr(data$p, 
-	c("A", "B"), 
-	c("Left", "Centre"))
+	c('A', 'B'), 
+	c('Left', 'Centre'))
 
 print(data)
 
   
 }
 
-\keyword{ Replace }
-\keyword{ Search }
+\keyword{ search and replace }

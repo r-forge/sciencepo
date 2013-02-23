@@ -59,5 +59,5 @@ skewness(x, type=3)
 detail(x)
 }
 
-\keyword{ Skewness }
-\keyword{ Descriptive Stats }
+\keyword{ skewness }
+\keyword{ descriptive stats }

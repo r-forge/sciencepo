@@ -1,6 +1,6 @@
 \name{cv}
 \alias{cv}
-\title{Computes the Pearson's coefficient of variation 
+\title{Computes Pearson's coefficient of variation 
 }
 \description{This functions computes the absolute coefficient of variation as
   proposed by Pearson: standard deviation divided by the
@@ -33,5 +33,6 @@ v <- rnorm(10)
 cv(v)
 }
 
-\keyword{ Coefficient of variation }
+\keyword{variation}
 \keyword{ Pearson }
+\keyword{ descriptive stats }

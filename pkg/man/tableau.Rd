@@ -35,6 +35,6 @@ cap <- "My Table of Proportions"
 tableau(x, title = cap)
 }
 
-\keyword{ Table }
-\keyword{ Proportions }
-\keyword{ Descriptive Stats }
+\keyword{ tables }
+\keyword{ proportions }
+\keyword{ descriptive stats }

@@ -24,16 +24,17 @@ Borg, Andreas and Murat Sariyar. (2012) \emph{RecordLinkage: Record Linkage in R
 \note{This function is an adaptation of the US census soundex version. See in \url{http://www.archives.gov/research/census/soundex.html}
 }
 
-\seealso{\link[RecordLinkage]{soundex}.
+\seealso{\code{\link{soundexBR}},\code{\link{soundexES}}.
 }
 
 \examples{
 
 
-soundexFR(x <- c("Jean Charest", "John Charest",
-	"James Charest", "John James Charest"))
+soundexFR(x <- c('Jean Charest', 'John Charest',
+	'James Charest', 'John James Charest'))
 
 }
 
-\keyword{ Soundex }
+\keyword{ soundex }
 \keyword{ French }
+\keyword{ RecordLinkage  }

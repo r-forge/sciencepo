@@ -15,7 +15,18 @@ kurtosis(x, na.rm = FALSE, type = 2)
   \item{type}{An integer between 1 and 3 selecting one of the algorithms for computing kurtosis detailed below.
 }
 }
-\details{In a similar way of skewness, kurtosis measures the peakedness of a data distribution. A distribution with zero kurtosis has a shape as the normal curve. Such type of kurtosis is called mesokurtic, or mesokurtotic. A positive kurtosis has a curve more peaked about the mean and the its shape is narrower than the normal curve. Such type is called leptokurtic, or leptokurtotic. Finally, a distribution with negative kurtosis has a curve less peaked about the mean and the its shape is flatter than the normal curve. Such type is called platykurtic, or platykurtotic. To be consistent with classical use of kurtosis in political science analyses, the default \bold{type} is the same equation used in SPSS and SAS, which is the bias-corrected formula: \bold{Type 2:} G_2 = ((n + 1)g_2 + 6)*(n - 1)/ (n - 2)(n - 3). When you set type to 1, the following equation applies: \bold{Type 1:} g_2 = m_4 / m_2^2 - 3. When you set type to 3, the following equation applies: \bold{Type 3:} b_2 = m_4 / s^4 - 3 = (g_2 + 3)(1 - 1/n)^2 - 3. You must have at least 4 observations in your vector to apply this function.
+\details{In a similar way of skewness, kurtosis measures the peakedness
+  of a data distribution. A distribution with zero kurtosis has a shape
+  as the normal curve. Such type of kurtosis is called mesokurtic, or
+  mesokurtotic. A positive kurtosis has a curve more peaked about the
+  mean and the its shape is narrower than the normal curve. Such type is
+  called leptokurtic, or leptokurtotic. Finally, a distribution with
+  negative kurtosis has a curve less peaked about the mean and the its
+  shape is flatter than the normal curve. Such type is called
+  platykurtic, or platykurtotic. To be consistent with classical use of
+  kurtosis in political science analyses, the default \bold{type} is the
+  same equation used in SPSS and SAS, which is the bias-corrected
+  formula: \bold{Type 2:} G_2 = ((n + 1) g_2+6) * (n-1)/(n-2)(n-3). When you set type to 1, the following equation applies: \bold{Type 1:} g_2 = m_4/m_2^2-3. When you set type to 3, the following equation applies: \bold{Type 3:} b_2 = m_4/s^4-3 = (g_2+3)(1-1/n)^2-3. You must have at least 4 observations in your vector to apply this function.
 }
 \value{ An object of the same type as \code{x}.
 }
@@ -47,6 +58,6 @@ kurtosis(x, type=3)
 detail(x) 
 }
 
-\keyword{ Leptokurtic}
-\keyword{ Mesokurtic }
-\keyword{ Descriptive Stats }
+\keyword{ leptokurtic}
+\keyword{ mesokurtic }
+\keyword{ descriptive stats }

@@ -30,7 +30,7 @@ Dixon, W. J., and Yuen, K. K. (1999) Trimming and winsorization: A review. \emph
 
 Wilcox, R. R. (2012) \emph{Introduction to robust estimation and hypothesis testing.} Academic Press, 30-32.
 
-Statistics Canada (2010) \emph{Survey Methods and Practices.} French version \dQuote{Mèthodes et pratiques d'ènquête.}
+Statistics Canada (2010) \emph{Survey Methods and Practices.}
 }
 
 \author{Daniel Marcelino
@@ -51,7 +51,7 @@ detail(x)
 
 }
 
-\keyword{ Descriptive Stats }
-\keyword{ Average }
-\keyword{Winsorization}
-\keyword{Outliers}
+\keyword{ descriptive stats }
+\keyword{ average }
+\keyword{winsorization}
+\keyword{outliers}

@@ -1,7 +1,7 @@
 \name{rstack}
 \alias{rstack}
-\title{ Produce a Stacked Table of Correlations}
-\description{Correlation is the well known degree to which two or more variables are linearly associated. In a two-dimensional table, the degree of correlation among the variables is quantified by the correlation coefficient.
+\title{ Produces a Stacked Table With Correlations}
+\description{Pearson's product-moment coefficient is the well known degree to which two or more variables are linearly associated. In a two-dimensional table, the degree of correlation among the variables is quantified by the correlation coefficient.
 
 }
 \usage{
@@ -26,7 +26,7 @@ Spiegel, M. R. (1992) Correlation Theory. in: \emph{Theory and Problems of Proba
 }
 \author{Daniel Marcelino
 }
-\note{When using the function to correlate values of a variable  with corresponding values at a different time will lead to an autocorrelation table.
+\note{When using the function to correlate values of a variable with corresponding values at a different time will lead to an autocorrelation table.
 }
 
 \seealso{\code{\link{tolatex}},\code{\link{rprob}}. 
@@ -43,6 +43,7 @@ tolatex(rstack(table))
 
 }
 
-\keyword{ Correlation }
-\keyword{ Table }
-\keyword{ Descriptive Stats }
+\keyword{ correlation }
+\keyword{ tables }
+\keyword{ descriptive stats }
+\keyword{ Pearson }

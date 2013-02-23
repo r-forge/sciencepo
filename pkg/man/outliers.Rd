@@ -26,7 +26,7 @@ outliers(x, index = NULL)
 }
 
 
-\seealso{For diminish the impact of outliers see \code{\link{winsor.mean}} or \code{\link[randomForest]{outlier}}.
+\seealso{For diminish the impact of outliers see \link{winsor.mean}.
 }
 \examples{
 #data frame;
@@ -42,6 +42,6 @@ outliers(x <- rnorm(20))
 
 }
 
-\keyword{ Outliers }
-\keyword{ Extreme Values }
-\keyword{ Descriptive Stats }
+\keyword{ outliers }
+\keyword{ extreme values }
+\keyword{ descriptive stats }

@@ -20,7 +20,7 @@ get.poly(x)
 }
 \note{}
 
-\seealso{\code{\link[maptools]{readShapeSpatial}}, \code{\link[maptools]{readShapePoly}}.
+\seealso{
 }
 \examples{
 
@@ -30,5 +30,5 @@ package="maptools") )
 plot(poly <- get.poly(sids))
 
 }
-\keyword{ Polygons }
-\keyword{ Shapefiles }
+\keyword{ polygons }
+\keyword{ shapefiles }

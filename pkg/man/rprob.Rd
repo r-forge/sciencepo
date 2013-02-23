@@ -1,8 +1,7 @@
-\encoding{latin1}
 \name{rprob}
 \alias{rprob}
 
-\title{Probabilities For Pairwise Correlations 
+\title{Produces Pairwise Correlation and its Probability 
 }
 \description{Computes the pairwise correlations for all valid cases (!NA) in a data frame and find the probabilities for each combination. This function parses the correlations below the diagonal and the significance probabilities above it. 
 }
@@ -15,9 +14,12 @@ rprob(x, df = nrow(x) - 2)
   \item{df}{an optional value for degrees of freedom. The default assumes you have a common degrees of freedom (n-2) for all correlations in the table.
 }
 }
-\details{ The connexion between correlation and \bold{t} statistics is known to be \eqn{t = \frac{r \sqrt{(n - 2)}{\sqrt(1 - r^2)}}}. That is, F = t^2 = r^2 * (n - 2)/(1 - r^2) ~ F(1, n-2). Solving this, it is possible find the probabilities.
+\details{ The connexion between correlation and t-statistics is
+  known to be \eqn{t = \frac{r \sqrt{(n-2)}} {\sqrt{(1-r^2)}}}. Or then, F = t^2 = r^2 * (n - 2)/(1 - r^2) ~ F(1, n-2). By solving this, it
+  is possible to find the probabilities.
 }
-\value{ A data frame object with correlations and probabilities. The first diagonal display the correlations, while the probabilities are shown in the second uppper diagonal. 
+\value{ A data frame object with the Pearson's product-moment
+  coefficient and its probabilitie. \bold{The first diagonal display the correlations, while the probabilities are shown in the second uppper diagonal.} 
 }
 
 \references{
@@ -48,6 +50,6 @@ summary(lm(output ~ plabor + totcost, data = nerlove63))
 # intersection of output and plabor and output and totcost in the matrix.
 
 }
-\keyword{ Correlation }
-\keyword{ Probabilities }
-\keyword{ Descriptive Stats }
+\keyword{ correlation }
+\keyword{ probabilities }
+\keyword{ descriptive stats }

@@ -25,16 +25,16 @@ accent(x)
 \note{
 }
 
-\seealso{\code{\link{rm.tags}}
+\seealso{\code{\link{outtags}}
 }
 
 \examples{
 
-accent("Não me julgues pela metade se não me conheces por inteiro.")
+accent('Não me julgues pela metade se não me conheces por inteiro.')
 
 \dontrun{accent(x)}
 }
-\keyword{ Accent Marks }
-\keyword{ Strings }
-\keyword{ Diacritics }
+\keyword{ accent marks }
+\keyword{ strings }
+\keyword{ diacritics }
 

@@ -37,6 +37,5 @@ lsq(4, 2, seed = 51)
 
 }
 
-\keyword{ Latin square }
-\keyword{ Carrées latins }
-\keyword{ Experiments }
+\keyword{ latin square }
+\keyword{ experiments }

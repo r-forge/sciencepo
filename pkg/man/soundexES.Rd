@@ -25,19 +25,20 @@ Borg, Andreas and Murat Sariyar. (2012) \emph{RecordLinkage: Record Linkage in R
 \note{This function is an adaptation of the US census soundex version. See in \url{http://www.archives.gov/research/census/soundex.html}
 }
 
-\seealso{\link[RecordLinkage]{soundex}.
+\seealso{\code{\link{soundexBR}}, \code{\link{soundexFR}} .
 }
 
 \examples{
 
-soundexES(x <- c("Alejandro Angel Tapias", "Alejandro Tapias",
-"Alejandro A. Tapias", "Alexander Angel Tapias",
-"Alexandre Angel Tapias"))
+soundexES(x <- c('Alejandro Angel Tapias', 'Alejandro Tapias',
+'Alejandro A. Tapias', 'Alexander Angel Tapias',
+'Alexandre Angel Tapias'))
 
-\dontrun{soundexES(y <- c("Evita Perón", "Beatriz Rivera",
-"Irene Martin", "Carol Galais") )
+\dontrun{soundexES(y <- c('Beatriz Rivera', 'Carol Galais', 'Evita Perón', 
+'Irene Martin') )
 }
 }
 
-\keyword{ Soundex }
+\keyword{ soundex }
 \keyword{ Spanish }
+\keyword{ RecordLinkage  }

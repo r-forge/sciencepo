@@ -44,6 +44,6 @@ detail(x)
 
 }
 
-\keyword{ Standard Error}
-\keyword{ Variance}
-\keyword{ Descriptive Stats }
+\keyword{ error}
+\keyword{ variance}
+\keyword{ descriptive stats }

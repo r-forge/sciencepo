@@ -10,7 +10,7 @@
 \tabular{ll}{
 Package: \tab SciencePo\cr
 Type: \tab Package\cr
-Version: \tab 0.2\cr
+Version: \tab 0.3.3-01\cr
 Date: \tab 2012-12-01\cr
 License: \tab LGPL (>= 2.0, < 3)\cr }
 }
@@ -22,12 +22,12 @@ License: \tab LGPL (>= 2.0, < 3)\cr }
 Marcelino, Daniel. (2010) \emph{Sobre dinheiro e eleições: um estudo dos gastos de campanha para o Congresso Nacional em 2002 e 2006.}
 }
 
-\keyword{ Descriptive Stats }
-\keyword{ Experiments }
-\keyword{ Political systems }
-\keyword{ Simulations }
+\keyword{ descriptive stats }
+\keyword{ experiments }
+\keyword{ political systems }
+\keyword{ simulations }
 
-\seealso{ \code{\link{detail}},  \code{\link{shift}},\code{\link{gsr}}, \code{\link{soundexBR}}, \code{\link{tableau}}, \code{\link{accent}}, \code{\link{beta.coef}}, \code{\link{outliers}}, \code{\link{anonymize}}, \code{\link{lsq}}, \code{\link{get.poly}}, \code{\link{rprob}}, \code{\link{rstack}}, \code{\link{winsor.mean}}, \code{\link{get.ci}}, \code{\link{get.ipc}}. 
+\seealso{ \code{\link{detail}},  \code{\link{shift}},\code{\link{outtags}}, \code{\link{soundexBR}}, \code{\link{tableau}}, \code{\link{accent}}, \code{\link{beta.coef}}, \code{\link{outliers}}, \code{\link{anonymize}}, \code{\link{lsq}}, \code{\link{get.poly}}, \code{\link{rprob}}, \code{\link{rstack}}, \code{\link{winsor.mean}}, \code{\link{get.ci}}, \code{\link{get.ipc}}. 
 }
 
 \examples{

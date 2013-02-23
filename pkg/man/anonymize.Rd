@@ -37,7 +37,6 @@ anonymize(mtl)
 
 }
 
-\keyword{ Sharing }
-\keyword{ Anonymously }
-\keyword{ Disfigure }
-\keyword{ Deform }
+\keyword{ anonymously }
+\keyword{ deform }
+\keyword{ randomize }
