@@ -1,8 +1,8 @@
 \name{anonymize}
 \alias{anonymize}
-\title{Make Anonymous a Data Frame
+\title{To Make Anonymous a Data Frame
 }
-\description{Replaces factor and character columns by a combination of letters and numbers. Numeric columns are also transformed, see details.
+\description{Replaces factor and character variables by a combination of letters and numbers. Numeric columns are also transformed, see details.
 }
 \usage{
 anonymize(x)

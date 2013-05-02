@@ -2,7 +2,7 @@
 \alias{beta.coef}
 \title{Standardized Beta Coefficients
 }
-\description{Produces standardized beta coefficients from an adjusted model. Standardized coefficients refer to how many standard deviations a dependent variable will change per standard deviation increase in the predictor variable.
+\description{Generate standardized beta coefficients from an adjusted model. Standardized coefficients refer to how many standard deviations a dependent variable will change per standard deviation increase in the predictor variable. See details.
 }
 \usage{
 beta.coef(md)
@@ -11,7 +11,7 @@ beta.coef(md)
   \item{md}{is a linear object model.
   }
 }
-\details{Standardized beta coefficients also known as beta coefficients are estimated from unstandardized coefficients, partially adjusted by the quotient of standard deviation of independent variable, and the standard deviation of dependent variable. Basically, beta coefficients report the relative importance of each independent variables. The procedure of coefficient standardization is usually done in multiple regression analysis. It helps to answer the question of which of the independent variables have the greater effect on the dependent variable. Standardization is specially useful when variables are measured in different units of measurement.
+\details{Standardized beta coefficients--also known as beta coefficients--are quantities estimated from unstandardized coefficients, which are partially adjusted by the quotient of the standard deviation of an independent variable, and the standard deviation of a dependent variable. Basically, beta coefficients report the relative importance of each independent variables. The standardization is typically done after running a multiple regression model, since it aids the researcher to identify which independent variables have the greater effect. Therefore, the standardization procedure is specially useful when variables are measured in different units.
 }
 \value{ a numeric value of standardized beta coefficient.
 

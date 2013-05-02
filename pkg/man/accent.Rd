@@ -10,7 +10,7 @@
 accent(x)
 }
 \arguments{
-  \item{x}{Is a data object or a vector. }
+  \item{x}{Is a data object. }
 }
 \details{
 }

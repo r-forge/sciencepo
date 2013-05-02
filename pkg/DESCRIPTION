@@ -1,11 +1,11 @@
 Package: SciencePo
 Type: Package
-Title: Tools for Political Behaviour Analysis
+Title: Political Behaviour Analysis Tool
 Version: 0.3.3-01
 Date: 2013-03-01
 Author: Daniel Marcelino
 Maintainer: Daniel Marcelino <dm.silva@umontreal.ca>
-Description: SciencePo is a collection of functions for making the use of R in political science even more intuitive. SciencePo covers standard descriptive analyses for observational and experimental data. Later updates will focus on cutting-edge methods published on the main journals of the field.
+Description: SciencePo is a facility package that makes the using of R in political science even more intuitive. The very objective for the SciencePo is to cover standard descriptive analyses for experimental data. Later updates will focus on cutting-edge implementations published in the relevant journals of the field.
 URL: http://danielmarcelino.com/SciencePo
 License: LGPL (>= 2.0, < 3)
 Depends: R (>= 3.0), stats, utils, graphics, grDevices

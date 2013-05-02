@@ -2,9 +2,9 @@
 \name{SciencePo-package}
 \alias{SciencePo}
 \docType{package}
-\title{Tools for Research in Political Science
+\title{Political Behaviour Analysis Tool
 }
-\description{SciencePo is a collection of functions for making the use of R in political science even more intuitive. SciencePo covers standard descriptive analyses for observational and experimental data. Later updates will focus on cutting-edge methods published on the main journals of the field.
+\description{SciencePo is a facility package that makes the using of R in political science even more intuitive. The very objective for the SciencePo is to cover standard descriptive analyses for experimental data. Later updates will focus on cutting-edge implementations published in the relevant journals of the field.
 }
 \details{
 \tabular{ll}{
@@ -19,7 +19,7 @@ License: \tab LGPL (>= 2.0, < 3)\cr }
 }
 \references{
 
-Marcelino, Daniel. (2010) \emph{Sobre dinheiro e eleições: um estudo dos gastos de campanha para o Congresso Nacional em 2002 e 2006.}
+Marcelino, Daniel. (2010) \emph{Sobre dinheiro e eleicoes: um estudo dos gastos de campanha para o Congresso Nacional em 2002 e 2006.}
 }
 
 \keyword{ descriptive stats }
